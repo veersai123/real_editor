@@ -1,0 +1,50 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   border: 2px solid orange;
+   padding: 20px;
+   background-color: black;
+   border-radius: 10px;
+}
+.input-field {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: darkorange;
+} 
